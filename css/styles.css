@@ -431,6 +431,7 @@ a {
 .social-list-end {
   display: flex;
   gap: 16px;
+  margin-right: 80px;
 }
 .foot {
   display: flex;
@@ -465,4 +466,48 @@ a {
 .item-social-end:hover,
 .item-social-end:focus {
   background-color: #31d0aa;
+}
+.subs {
+  display: flex;
+}
+.label-subs {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  gap: 16px;
+}
+.input-mail {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.btn-subs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  margin-left: 24px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  margin-top: auto;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  gap: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-subs {
+  fill: #f4f4fd;
 }
