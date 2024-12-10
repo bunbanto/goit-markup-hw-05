@@ -481,14 +481,17 @@ a {
   gap: 16px;
 }
 .input-mail {
+  color: #fff;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
   background: #2e2f42;
+  padding-left: 8px;
   /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
 }
 .input::placeholder {
+  border-color: #fff;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
