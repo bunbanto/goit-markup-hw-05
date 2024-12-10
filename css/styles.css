@@ -25,7 +25,10 @@ ol {
   padding: 0;
   list-style-type: none;
 }
-
+button {
+  margin: 0;
+  padding: 0;
+}
 img {
   display: block;
   max-width: 100%;
@@ -502,7 +505,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -511,7 +514,6 @@ a {
   color: #fff;
   margin-left: 24px;
   border-radius: 4px;
-  padding: 8px 24px;
   margin-top: auto;
   width: 165px;
   height: 40px;
