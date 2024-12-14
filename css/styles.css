@@ -422,8 +422,7 @@ button {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-overlay {
-  /* .is-open { */
+.modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
 }
@@ -439,7 +438,7 @@ button {
   padding: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
-  /* overflow-y: auto; */
+  overflow-y: auto;
 }
 .modal h2 {
   font-weight: 500;
@@ -698,6 +697,7 @@ input[type='checkbox']:checked + label .svg-check {
 }
 .subs {
   display: flex;
+  gap: 24px;
 }
 .label-subs {
   display: flex;
@@ -707,7 +707,7 @@ input[type='checkbox']:checked + label .svg-check {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  gap: 16px;
+  padding-bottom: 16px;
   margin-right: 24px;
 }
 .input-mail {
