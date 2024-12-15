@@ -722,12 +722,11 @@ input[type='checkbox']:checked + label .svg-check {
   width: 264px;
   height: 40px;
   background-color: transparent;
-  background: #2e2f42;
-  padding-left: 8px;
+  padding-left: 16px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .input-email::placeholder {
   border-color: #ffffff;
@@ -739,7 +738,7 @@ input[type='checkbox']:checked + label .svg-check {
 }
 
 .btn-subs {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -757,7 +756,7 @@ input[type='checkbox']:checked + label .svg-check {
   border-radius: 4px;
   margin-top: auto;
   border: none;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   gap: 16px;
