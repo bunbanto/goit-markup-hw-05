@@ -654,7 +654,7 @@ modal-close-btn:hover .svg-modal-close-btn {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .form-label {
   display: block;
