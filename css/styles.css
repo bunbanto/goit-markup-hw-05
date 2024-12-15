@@ -604,7 +604,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-bottom: 24px; */
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 24px;
   height: 24px;
@@ -637,7 +636,7 @@ button {
 .modal-close-btn:hover .svg-modal-close-btn {
   fill: #ffffff;
 }
-modal-close-btn:hover .svg-modal-close-btn {
+.modal-close-btn:focus .svg-modal-close-btn {
   fill: #ffffff;
 }
 .label {
@@ -655,6 +654,9 @@ modal-close-btn:hover .svg-modal-close-btn {
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
+}
+div-form-label-comm {
+  margin-bottom: 16px;
 }
 .form-label {
   display: block;
@@ -721,12 +723,12 @@ input:focus + .svg-modal {
 .form-input-comment:focus {
   border-color: #4d5ae5;
 }
-.div-check {
+/* .div-check {
   display: inline-flex;
   align-items: center;
   margin-bottom: 24px;
   fill: #ffffff;
-}
+} */
 
 input:checked + .check-privacy > .span-check {
   fill: #f4f4fd;
@@ -746,7 +748,7 @@ input:checked + .check-privacy > .span-check {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .check-privacy {
-  display: flex;
+  /* display: flex; */
   gap: 8px;
   font-weight: 400;
   font-size: 12px;
