@@ -654,7 +654,7 @@ button {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .form-label {
   display: block;
@@ -702,27 +702,37 @@ input:focus {
 input:focus + .svg-modal {
   fill: #4d5ae5;
 }
-textarea {
-  height: 120px;
+
+.form-input-comment {
+  font-size: 12px;
+   line-height: 1.17; 
+   letter-spacing: 0.04em;
+   color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  width: 100%;
+   height: 120px;
   resize: none;
   padding: 8px 16px;
   outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input-comment {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  width: 360px;
+.form-input-comment:focus {
+  border-color: #4D5AE5;
 }
 .div-check {
   display: inline-flex;
   align-items: center;
+  margin-bottom: 24px;
   fill: #fff;
 }
 input[type='checkbox'] {
   display: none;
 }
-input[type='checkbox']:checked + label .svg-check {
-  fill: #fff;
+input:checked + .check-privacy > .span-check {
+  fill: #F4F4FD;;
+  border: none;
   background-color: #404bbf;
 }
 .input-check {
@@ -742,20 +752,32 @@ input[type='checkbox']:checked + label .svg-check {
   gap: 8px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   margin-top: 16px;
   margin-bottom: 24px;
   color: #8e8f99;
 }
-.check-privacy a {
+.span-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+   fill: transparent;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+. text-priv {
   line-height: 1.33333;
   text-decoration: underline;
-  text-decoration-skip-ink: none;
+  /* text-decoration-skip-ink: none; */
   color: #4d5ae5;
-}
+} 
 .btn-send {
   display: flex;
+  min-width: 169px;
   align-items: center;
   justify-content: center;
   align-self: center;

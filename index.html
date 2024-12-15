@@ -513,11 +513,11 @@
             </div>
           </div>
           <div class="div-form-label">
-            <label class="form-label" for="user-name"> Phone</label>
+            <label class="form-label" for="user-name">Phone</label>
             <div class="text-label">
               <input
                 class="form-input"
-                id="user-name"
+                id="user-phone"
                 type="tel"
                 name="user-name"
               />
@@ -527,11 +527,11 @@
             </div>
           </div>
           <div class="div-form-label">
-            <label class="form-label" for="user-name"> Email</label>
+            <label class="form-label" for="user-name">Email</label>
             <div class="text-label">
               <input
                 class="form-input"
-                id="user-name"
+                id="user-email"
                 type="email"
                 name="user-name"
               />
@@ -541,27 +541,29 @@
             </div>
           </div>
           <div class="div-form-label">
-            <label class="form-label"> Comment</label>
+            <label class="form-label" for="user-comment">Comment</label>
             <textarea
               class="form-input-comment"
-              name="description"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
           <div class="div-check">
             <input
               type="checkbox"
-              id="custom-checkbox"
-              name="accept"
-              class="input-check"
-              value="privacy"
+              id="user-privacy"
+              name="user-privacy"
+              class="input-check visually-hidden"
+              value="true"
             />
-            <label class="check-privacy" for="custom-checkbox">
-              <svg class="svg-check" width="10" height="8">
-                <use href="./images/icons.svg#icon-check"></use>
-              </svg>
+            <label class="check-privacy" for="user-privacy">
+              <span class="span-check">
+                <svg class="svg-check" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use></svg
+              ></span>
               I accept the terms and conditions of the
-              <a href="#">Privacy Policy</a>
+              <a class="text-priv" href="#">Privacy Policy</a>
             </label>
           </div>
           <button class="btn-send" type="submit">Send</button>
