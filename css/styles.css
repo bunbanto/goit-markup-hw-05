@@ -569,7 +569,7 @@ button {
   justify-content: center;
   align-items: center;
   opacity: 1;
-  pointer-events: none;
+  /* pointer-events: none; */
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -634,10 +634,10 @@ button {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-close:hover .svg-modal-close-btn {
+.modal-close-btn:hover .svg-modal-close-btn {
   fill: #ffffff;
 }
-.btn-close:hover .btn-close-x {
+modal-close-btn:hover .svg-modal-close-btn {
   fill: #ffffff;
 }
 .label {
@@ -721,15 +721,13 @@ input:focus + .svg-modal {
 .form-input-comment:focus {
   border-color: #4d5ae5;
 }
-/* .div-check {
+.div-check {
   display: inline-flex;
   align-items: center;
   margin-bottom: 24px;
   fill: #ffffff;
-} */
-/* input[type='checkbox'] {
-  display: none;
-} */
+}
+
 input:checked + .check-privacy > .span-check {
   fill: #f4f4fd;
   border: none;
@@ -774,8 +772,6 @@ input:checked + .check-privacy > .span-check {
 .text-priv {
   line-height: 1.33333;
   text-decoration: underline;
-
-  /* text-decoration-skip-ink: none; */
   color: #4d5ae5;
 }
 .btn-send {
