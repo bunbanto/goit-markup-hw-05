@@ -580,21 +580,18 @@ button {
 }
 
 .modal {
+  background-color: #fcfcfc;
+  max-width: 408px;
+  width: 408px;
+  min-height: 584px;
+  padding: 72px 24px 24px 24px;
+  border-radius: 4px;
   position: absolute;
   top: 50%;
   left: 50%;
-  min-height: 584px;
-  width: 408px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #fcfcfc;
-  border-radius: 4px;
-  padding: 72px 24px 24px 24px;
-  transform: translate(-50%, -50%);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn {
@@ -653,11 +650,9 @@ button {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
-/* div-form-label-comm {
-  margin-bottom: 16px;
-} */
+
 .form-label {
   display: block;
   margin-bottom: 4px;
@@ -670,7 +665,7 @@ button {
 .text-label {
   position: relative;
 }
-.form-input {
+/* .form-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -679,7 +674,7 @@ button {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .svg-modal {
   position: absolute;
@@ -800,4 +795,8 @@ input:checked + .check-privacy > .span-check {
 .btn-send:hover,
 .btn-send:focus {
   background-color: #404bbf;
+}
+
+.div-form-label-comm {
+  margin-bottom: 16px;
 }
