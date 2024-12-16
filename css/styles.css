@@ -653,11 +653,11 @@ button {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
-}
-div-form-label-comm {
   margin-bottom: 16px;
 }
+/* div-form-label-comm {
+  margin-bottom: 16px;
+} */
 .form-label {
   display: block;
   margin-bottom: 4px;
@@ -723,12 +723,12 @@ input:focus + .svg-modal {
 .form-input-comment:focus {
   border-color: #4d5ae5;
 }
-/* .div-check {
+.div-check {
   display: inline-flex;
   align-items: center;
   margin-bottom: 24px;
   fill: #ffffff;
-} */
+}
 
 input:checked + .check-privacy > .span-check {
   fill: #f4f4fd;
