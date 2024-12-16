@@ -544,7 +544,7 @@ button {
   min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
-  gap: 16px;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-subs:focus,
@@ -736,12 +736,12 @@ input:checked + .check-privacy > .span-check {
   width: 16px;
   height: 16px;
 }
-.svg-check {
+/* .svg-check {
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-}
+} */
 .check-privacy {
   /* display: flex; */
   gap: 8px;
