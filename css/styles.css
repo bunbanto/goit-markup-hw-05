@@ -719,10 +719,10 @@ input:focus + .svg-modal {
   border-color: #4d5ae5;
 }
 .div-check {
-  display: inline-flex;
-  align-items: center;
+  /* display: inline-flex; */
+  /* align-items: center; */
   margin-bottom: 24px;
-  fill: #ffffff;
+  /* fill: #ffffff; */
 }
 
 input:checked + .check-privacy > .span-check {
